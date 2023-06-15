@@ -8,3 +8,6 @@ dist
 .editorconfig
 .gitattributes
 browserconfig.xml
+/.venv/
+/.idea/
+/.gitignore
