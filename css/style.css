@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url(/fonts/Poppins-Regular.ttf);
+}
+
 body {
     background: linear-gradient(90deg, #0136F9 16%, #000000 100%);
+    font-family: 'Poppins-Regular', serif;
 }
 
 .nav-link {
@@ -21,5 +27,14 @@ body {
 .sidebar {
     color: aquamarine;
     background: linear-gradient(270deg, #051659 16%, #0c0f18 100%);
+}
 
+.card {
+    background: linear-gradient(270deg, #0136F9 16%, #000000 100%);
+    color: aquamarine;
+}
+
+.card a {
+    text-decoration: none;
+    color: aquamarine;
 }
