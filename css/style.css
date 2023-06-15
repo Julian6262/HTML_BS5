@@ -38,3 +38,24 @@ body {
     text-decoration: none;
     color: aquamarine;
 }
+
+.slide-text,
+.footer-text {
+    color: aquamarine;
+    margin: auto auto;
+}
+
+footer {
+    background: #212529;
+}
+
+.media-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
