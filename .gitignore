@@ -9,5 +9,5 @@ dist
 .gitattributes
 browserconfig.xml
 /.venv/
-/.idea/
-/.gitignore
+/.idea
+.gitignore
